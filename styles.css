@@ -1,0 +1,176 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1e1e2f;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 5px 0 0;
+    font-size: 1.2rem;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #667eea;
+    margin-bottom: 20px;
+}
+
+/* Card Container */
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.card {
+    background: #2a2a40;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background: #3a3a50;
+}
+
+/* Chart Container */
+.chart-container {
+    display: none;
+    background: #2a2a40;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+
+iframe {
+    width: 100%;
+    height: 400px;
+    border: none;
+    border-radius: 5px;
+}
+
+.open-chart-btn {
+    margin-top: 10px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background: #667eea;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.open-chart-btn:hover {
+    background: #5568c2;
+}
+
+/* News Section */
+.news-section {
+    margin-top: 40px;
+}
+
+.news-container {
+    background: #2a2a40;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.news-list {
+    list-style: none;
+    padding: 0;
+}
+
+.news-list li {
+    padding: 10px;
+    border-bottom: 1px solid #444;
+    transition: background 0.3s;
+}
+
+.news-list li:hover {
+    background: #3a3a50;
+}
+
+.news-list li a {
+    color: #667eea;
+    text-decoration: none;
+}
+
+.news-list li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #2a2a40;
+    margin-top: 40px;
+    color: #667eea;
+}
+
+.news-list li {
+    padding: 15px;
+    border-bottom: 1px solid #444;
+    transition: background 0.3s;
+    background: #2a2a40;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.news-list li:hover {
+    background: #3a3a50;
+}
+
+.news-list li strong {
+    font-size: 1.1rem;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.news-list li em {
+    color: #888;
+    font-size: 0.9rem;
+}
+
+.news-list li span {
+    color: #ccc;
+    font-size: 0.9rem;
+}
+
+.news-list li a {
+    color: #667eea;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.news-list li a:hover {
+    text-decoration: underline;
+}

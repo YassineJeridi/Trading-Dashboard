@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trading Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Trading Dashboard</h1>
+        <p>Your gateway to real-time charts and economic news</p>
+    </header>
+
+    <main>
+        <section class="charts-section">
+            <h2>Popular Forex Trading Pairs</h2>
+            <div class="card-container" id="cardContainer"></div>
+            <div class="chart-container" id="chartContainer">
+                <h2 id="chartTitle"></h2>
+                <iframe id="tradingViewChart" src=""></iframe>
+                <button class="open-chart-btn" id="openChartBtn">Open in New Tab <i class="fas fa-external-link-alt"></i></button>
+            </div>
+        </section>
+
+        <section class="news-section">
+            <h2>Upcoming Economic News</h2>
+            <div class="news-container" id="newsSection">
+                <ul id="newsList" class="news-list"></ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Trading Dashboard. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
